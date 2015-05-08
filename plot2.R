@@ -11,7 +11,7 @@ outputFile <- "./data/raw_data.RData"
 
 # Download file and extract it.
 if(!file.exists(sourceFile)) {
-    if (Sys.info()['sysname'] == "windows") {
+    if (Sys.info()['sysname'] == "Windows") {
         # needed for my Windows PC
         download.file(fileURL, destfile=sourceFile)
     } else {

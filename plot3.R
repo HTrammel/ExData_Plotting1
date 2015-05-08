@@ -43,7 +43,7 @@ tod <- df$date_time
 
 png("plot3.png", width=480, height=480)
 
-plot(tod, sm1, type="l", col= "black")
+plot(tod, sm1, type="l", col= "black", ylab = "Energy sub metering", xlab = "" )
 lines(tod, sm2, col="red")
 lines(tod, sm3, col="blue")
 legend("topright",

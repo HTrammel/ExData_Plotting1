@@ -55,7 +55,7 @@ plot(tod, gap, type="l", ylab = "Global Active Power", xlab = "" )
 plot(tod, volt, type="l", ylab = "Voltage", xlab = "datetime" )
 
 #3 bottom left
-plot(tod, sm1, type="l", col= "black")
+plot(tod, sm1, type="l", col= "black", ylab = "Energy sub metering", xlab = "" )
 lines(tod, sm2, col="red")
 lines(tod, sm3, col="blue")
 legend("topright",
